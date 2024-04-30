@@ -1,0 +1,22 @@
+[tool.poetry]
+# Package metadata
+name = "projet_scrapper"
+version = "0.1.0"
+description = "A short description of your package"
+license = "MIT"  # You can replace this with your chosen license
+
+# Authors and maintainers (optional)
+authors = ["Your Name <your_email@example.com>"]
+maintainers = ["Your Name <your_email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"  # You can specify a compatible Python version range here -> ^ ça veut dire 'Au moins telle version'
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"  # Example development dependency
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.core.masonry.builders.sdist"
