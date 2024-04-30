@@ -1,0 +1,2 @@
+# ElectionScrapper
+Scrap election results
